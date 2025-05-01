@@ -1,0 +1,20 @@
+.Main {
+  /*background: url(../../../src/assets/images/bg-playa728x410.webp);*/
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 100px);
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.Main__header {
+  display: flex;
+  place-content: center;
+  /*min-height: 70px;*/
+  padding-bottom: 0.5em;
+}
+.logo-project {
+  width: 100px;
+  height: 50;
+}

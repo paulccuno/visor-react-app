@@ -1,0 +1,17 @@
+.Button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid var(--color-losfrutales-primary);
+  background-color: var(--color-losfrutales-primary);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s background-color, 0.2s color;
+}
+.Button:hover {
+  filter: brightness(1.1);
+}
+
+.Button:active {
+  background-color: #fff;
+  color: var(--color-losfrutales-primary);
+}

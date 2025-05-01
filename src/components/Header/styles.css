@@ -1,0 +1,36 @@
+.Header {
+  min-width: 400px;
+  min-height: 70px;
+}
+
+.Header-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0.5em;
+}
+
+.Header__left,
+.Header__right {
+  display: flex;
+  align-items: center;
+}
+
+.Header__left {
+  padding-left: 1rem;
+}
+
+.Header__right {
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-LosFrutales {
+  object-fit: cover;
+  height: 65px;
+  width: 92px;
+}

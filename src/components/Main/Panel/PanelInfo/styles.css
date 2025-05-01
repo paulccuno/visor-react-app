@@ -1,0 +1,42 @@
+.Panel-info {
+  display: flex;
+  gap: 10px;
+}
+
+.Panel-info__label {
+  display: flex;
+  align-items: center;
+}
+
+.Panel-info__value {
+  font-weight: bold;
+}
+
+.Panel-info__value-editable {
+  padding: 5px;
+  min-width: 120px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.Panel-info__value-editable[data-selected="1"],
+.Panel-info__value-editable option[value="1"] {
+  color: #00aa00;
+  border-color: #00aa00;
+}
+
+.Panel-info__value-editable[data-selected="2"],
+.Panel-info__value-editable option[value="2"] {
+  color: #ff8800;
+  border-color: #ff8800;
+}
+
+.Panel-info__value-editable[data-selected="3"],
+.Panel-info__value-editable option[value="3"],
+.Panel-info__value-editable[data-selected="4"],
+.Panel-info__value-editable option[value="4"] {
+  color: #ff0000;
+  border-color: #ff0000;
+}

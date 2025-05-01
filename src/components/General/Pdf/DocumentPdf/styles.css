@@ -1,0 +1,69 @@
+.Document-pdf {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Document-pdf__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.Document-pdf__header .Document-pdf__logo-santorini {
+  height: 100px;
+  width: 100px;
+}
+
+.Document-pdf__body {
+  position: relative;
+}
+
+.Document_pdf__info-resume {
+  position: absolute;
+  top: 3em;
+  right: 3em;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Info-resume {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.info-block {
+  display: inline-block !important;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border: 0.5px solid var(--color-losfrutales-secondary);
+}
+
+.info__disponible .info-block {
+  background-color: var(--color-plane-disponible);
+}
+
+.info__vendido .info-block {
+  background-color: var(--color-plane-vendido);
+}
+
+.info__separado .info-block {
+  background-color: var(--color-plane-separado);
+}
+
+
+/* @media screen and (max-width: 800px) {
+  .Document_pdf__info-resume {
+    top: 1em;
+    right: 1em;
+    transform: scale(0.5);
+  }
+} */

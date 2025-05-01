@@ -1,0 +1,46 @@
+.Area {
+  fill: #ffffff00;
+  /* stroke: #ffffff00; */
+}
+
+.Area.clicked {
+  fill: #0066ff80 !important;
+}
+
+.Area:hover {
+  fill: #0066ff50 !important;
+  /* stroke: #0066ff !important; */
+}
+
+.Area.Disponible {
+  fill: var(--color-plane-disponible-opacity);
+  /* stroke: #ffffff00; */
+}
+
+.Area.Separado {
+  fill: var(--color-plane-separado-opacity);
+  /* stroke: #ff7b00; */
+}
+
+.Area.Separado:hover {
+  fill: #3854a180 !important;
+  /* stroke: #ff7b00; */
+}
+
+.Area.Vendido,
+.Area.Reservado {
+  fill: var(--color-plane-vendido-opacity);
+  /* stroke: #ff0000; */
+}
+
+.Area.Vendido:hover,
+.Area.Reservado:hover {
+  fill: #79299180 !important;
+  /* stroke: #ffffff00; */
+}
+
+.Map span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

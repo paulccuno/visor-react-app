@@ -1,0 +1,32 @@
+.Plane-buttons {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Plane-buttons .button-zoom {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: none;
+  background-color: #424242;
+  stroke: #fff;
+  fill: #fff;
+  cursor: pointer;
+}
+
+.button-zoom:hover {
+  border: 1px solid var(--color-losfrutales-secondary);
+}
+
+.button-zoom svg {
+  width: 26px;
+  height: 26px;
+}

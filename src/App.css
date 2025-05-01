@@ -1,0 +1,15 @@
+:root {
+  --color-losfrutales-primary: #ff7e1b;
+  --color-losfrutales-secondary: #424242;
+
+  --color-losfrutales-primary: #FF862C;
+  --color-losfrutales-secondary: #ffaf6d;
+
+  --color-plane-disponible: #fff;
+  --color-plane-separado: #ff7b00;
+  --color-plane-vendido: #f00;
+
+  --color-plane-disponible-opacity: #ffffff00;
+  --color-plane-separado-opacity: #ff7b0080;
+  --color-plane-vendido-opacity: #ff000080;
+}

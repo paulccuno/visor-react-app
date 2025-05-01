@@ -1,0 +1,44 @@
+.Login {
+  position: fixed;
+  top: 4rem;
+  right: 1rem;
+  width: 100%;
+  max-width: 360px;
+  min-height: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 4px var(--color-losfrutales-secondary);
+  display: none;
+  z-index: 2;
+}
+
+.Login.show {
+  display: initial;
+}
+
+.Login-container {
+  padding: 1.5rem;
+}
+
+.Login__header {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.button-login {
+  outline: none;
+  border: 1px solid #424242;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1em;
+  cursor: pointer;
+  transition: 0.2s background-color, 0.1s transform;
+}
+
+.button-login:hover {
+  background-color: #eee;
+}
+
+.button-login:active {
+  transform: scale(0.97);
+}

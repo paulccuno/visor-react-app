@@ -1,0 +1,32 @@
+.Plane-info {
+  position: absolute;
+  left: 2em;
+  top: 2em;
+  z-index: 1;
+  display: none;
+  font-size: 18px;
+  min-width: 200px;
+}
+.Plane-info__container {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  min-width: 150px;
+  border-radius: 5px;
+}
+
+.Plane-info.show {
+  display: initial;
+}
+
+@media screen and (max-width: 800px) {
+  .Plane-info {
+    transform: scale(0.8);
+    top: 0;
+    left: -0.5em;
+  }
+}

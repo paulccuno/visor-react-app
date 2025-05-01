@@ -1,0 +1,26 @@
+.Input input {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #424242;
+  border-radius: 5px;
+}
+
+.Input label {
+  font-size: 12pt;
+}
+
+.Input label.error {
+  color: #ff5050;
+}
+
+.Input input[error] {
+  border-color: #ff5050;
+}
+
+.Input .Error-message {
+  padding: 0 10px;
+  font-size: 9pt;
+  color: #ff5050;
+}
