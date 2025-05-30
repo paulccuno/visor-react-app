@@ -1,10 +1,15 @@
-import { Panel } from '../components/Panel'
+import { HomeContextProvider } from '../contexts/HomeContext'
+import { Header } from '../components/General/Header'
+import { Main } from '../components/General/Main'
+import { Panel } from '../components/Home/Panel'
 
 export const HomePage = () => (
   <>
-    <main className="bg-center bg-no-repeat bg-cover min-w-[400px] h-[calc(100vh-100px)] flex flex-col">
-      <header className="flex place-content-center pb-0.5"></header>
-      <Panel />
-    </main>
+    <HomeContextProvider>
+      <Header />
+      <Main>
+        <Panel />
+      </Main>
+    </HomeContextProvider>
   </>
 )
